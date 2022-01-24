@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRightIcon } from "@heroicons/react/solid";
+import ThemeToggle from "./ThemeToggle"
 
 export default function Navbar() {
   return (
@@ -24,6 +25,7 @@ export default function Navbar() {
             <ArrowRightIcon className="w-4 h-4 ml-1" />
           </a>
         </nav>
+        <ThemeToggle />
       </div>
     </header>
   );
