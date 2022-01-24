@@ -4,17 +4,21 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import { ThemeProvider } from './components/ThemeContext';
+import Background from './components/Background';
 
 export default function App() {
   return (
     <>
-      <main className="text-gray-400 bg-gray-900 body-font">
-        <Navbar />
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
-      </main>
+      <ThemeProvider>
+        <Background>
+          <Navbar />
+          <About />
+          <Projects />
+          <Skills />
+          <Contact />
+        </Background>
+      </ThemeProvider>
     </>
   );
 }

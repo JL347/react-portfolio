@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { FaSun, FaMoon} from "react-icons/fa";
 import { ThemeContext } from './ThemeContext';
 
 const Toggle = () => {
-  const { theme, setTheme } = React.useContext(ThemeContext);
+  const { theme, setTheme } = useContext(ThemeContext);
 
   return (
     <div className="transition duration-500 ease-in-out rounded-full p-2">
