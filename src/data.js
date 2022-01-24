@@ -35,5 +35,12 @@ export const projects = [
 
 export const skills = [
   "React",
-  "JavaScript"
+  "JavaScript",
+  "Ruby on Rails",
+  "Postgres",
+  "Tailwind CSS",
+  "Material UI",
+  "Bootstrap",
+  "HTML",
+  "CSS"
 ];
