@@ -1,35 +1,40 @@
+import requis from "./img/requis_logo_vert.png"
+import sandiego from "./img/PacificBeach.jpeg"
+import battleship from "./img/Battleship.jpeg"
+import treasure from "./img/Treasurehunt.jpeg"
+
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Requis",
+    subtitle: "React | Ruby on Rails | Tailwind CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "B2B Supply Chain platform - My current/most recent work",
+    image: `${requis}`,
+    link: "https://requis.com/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "History in Motion",
+    subtitle: "React",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reedbarger.com",
+      "A Fullstack Solution to Your Historical Travel Needs",
+    image: `${sandiego}`,
+    link: "https://radiant-bastion-26413.herokuapp.com",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Battleship",
+    subtitle: "JavaScript | HTML | CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://jsbootcamp.com",
+      "Not the Battleship you grew up playing!",
+    image: `${battleship}`,
+    link: "https://learn-battleship.netlify.com",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Treasure Hunt",
+    subtitle: "JavaScript | HTML | CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://pythonbootcamp.com",
+      "Try to find the treasure! If you dare...",
+    image: `${treasure}`,
+    link: "https://learn-treasurehunt.netlify.com",
   },
 ];
 
@@ -42,5 +47,8 @@ export const skills = [
   "Material UI",
   "Bootstrap",
   "HTML",
-  "CSS"
+  "CSS",
+  "GitHub",
+  "AWS",
+  "Trello"
 ];
